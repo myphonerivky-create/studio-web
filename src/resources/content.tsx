@@ -126,10 +126,12 @@ const about: About = {
   },
   studies: {
     display: false,
+    title: "Edukasi", // <- Tambahan agar tidak error
     institutions: [],
   },
   technical: {
     display: false,
+    title: "Keahlian", // <- Tambahan agar tidak error
     skills: [],
   },
 };
