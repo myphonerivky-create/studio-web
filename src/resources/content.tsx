@@ -126,12 +126,12 @@ const about: About = {
   },
   studies: {
     display: false,
-    title: "Edukasi", // <- Tambahan agar tidak error
+    title: "Edukasi",
     institutions: [],
   },
   technical: {
     display: false,
-    title: "Keahlian", // <- Tambahan agar tidak error
+    title: "Keahlian",
     skills: [],
   },
 };
@@ -155,7 +155,18 @@ const gallery: Gallery = {
   label: "Galeri",
   title: `Galeri Desain – ${person.name}`,
   description: `Dokumentasi hasil desain ${person.name}`,
-  images: [],
+  images: [
+    {
+      src: "/images/gallery/desain1.jpg",
+      alt: "Desain Website Company Profile",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/desain2.jpg",
+      alt: "Desain Website Toko Online",
+      orientation: "horizontal",
+    },
+  ],
 };
 
 export { person, social, newsletter, home, about, blog, work, gallery };
